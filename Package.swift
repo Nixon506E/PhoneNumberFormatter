@@ -15,11 +15,12 @@ let package = Package(
         .target(
             name: "PhoneNumberFormatter",
             dependencies: [],
-            path: "PhoneNumberFormatter/Sources",
-            exclude: ["Info.plist"]),
+            path: "PhoneNumberFormatter/Sources"
+        ),
         .testTarget(
             name: "PhoneNumberFormatterTests",
-            dependencies: ["PhoneNumberFormatter"]),
+            dependencies: ["PhoneNumberFormatter"]
+        ),
     ],
     swiftLanguageVersions: [.v5]
 )

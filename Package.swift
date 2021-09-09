@@ -14,9 +14,11 @@ let package = Package(
     targets: [
         .target(
             name: "PhoneNumberFormatter",
-            dependencies: []),
+            dependencies: [],
+            path: "PhoneNumberFormatter"),
         .testTarget(
             name: "PhoneNumberFormatterTests",
             dependencies: ["PhoneNumberFormatter"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )

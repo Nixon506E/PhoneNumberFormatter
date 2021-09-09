@@ -13,7 +13,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "PhoneNumberFormatter"
+            name: "PhoneNumberFormatter",
             dependencies: []),
         .testTarget(
             name: "PhoneNumberFormatterTests",

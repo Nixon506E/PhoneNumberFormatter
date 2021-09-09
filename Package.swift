@@ -15,8 +15,7 @@ let package = Package(
         .target(
             name: "PhoneNumberFormatter",
             dependencies: [],
-            path: "PhoneNumberFormatter",
-            exclude: ["Info.plist"]),
+            path: "PhoneNumberFormatter/Sources"),
         .testTarget(
             name: "PhoneNumberFormatterTests",
             dependencies: ["PhoneNumberFormatter"]),
